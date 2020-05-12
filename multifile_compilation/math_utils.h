@@ -7,12 +7,15 @@ struct Rectangle
 	double width;
 };
 
-double area(double length, double width);
+namespace utilz
+{
 
-double area(double length);
+	double area(double length, double width);
 
-double area(Rectangle rectangle);
+	double area(double length);
 
-double power(double base, int exponent = 2);
+	double area(Rectangle rectangle);
 
+	double power(double base, int exponent = 2);
+}
 #endif
